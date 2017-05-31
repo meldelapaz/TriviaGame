@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Disney Trivia</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+	<h1>Totally Trivial Trivia!</h1>
+
+<div class="col-md-12 text-center"> 
+    <button id="startbutton" name="startbutton" class="btn btn-primary">Start!</button> 
+</div>
+
+
+
+<div id="Questionnaire" class="hidden">
+
+<h2><span id="timer"></span> seconds left!</h2>
+<br>
+<h4>In Aladdin, what is the name of Jasmine’s pet tiger?</h4>
+<div class="radio">
+  <label>
+    <input type="radio" name="question1" id="optionsRadios1" value="option1">
+    Rajah
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question1" id="optionsRadios2" value="option2">
+    Pumba
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question1" id="optionsRadios3" value="option3">
+    Abu
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question1" id="optionsRadios4" value="option4">
+    Abu
+  </label>
+</div>
+
+<br>
+
+<h4>In "The Little Mermaid," who is NOT one of Triton’s daughter?</h4>
+<div class="radio">
+  <label>
+    <input type="radio" name="question2" id="optionsRadios1" value="option1">
+    Andrina
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question2" id="optionsRadios2" value="option2">
+    Adora
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question2" id="optionsRadios3" value="option3">
+    Attina
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question2" id="optionsRadios4" value="option4">
+    Alana
+  </label>
+</div>
+
+<br>
+
+<h4>In "Tangled," which one of Flynn Rydar's facial-feature did they always get wrong in his wanted posters?</h4>
+<div class="radio">
+  <label>
+    <input type="radio" name="question3" id="optionsRadios1" value="option1">
+    His mouth
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question3" id="optionsRadios2" value="option2">
+    His chin
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question3" id="optionsRadios3" value="option3">
+    His nose
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question3" id="optionsRadios4" value="option4">
+    His hair
+  </label>
+</div>
+
+<br>
+
+<h4>In "Sleeping Beauty," what is the name of Maleficent’s pet raven?</h4>
+<div class="radio">
+  <label>
+    <input type="radio" name="question4" id="optionsRadios1" value="option1">
+    Mauvias
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question4" id="optionsRadios2" value="option2">
+    Diable
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question4" id="optionsRadios3" value="option3">
+    Malum
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question4" id="optionsRadios4" value="option4">
+    Diablo
+  </label>
+</div>
+
+<div class="col-md-12 text-center"> 
+	<button type="submit" class="btn btn-default">Submit</button>
+</div>
+
+</div>
+
+<div id="results" class="hide">
+  <h2>Here's How You Did!</h2>
+  <br>
+  <p>Correct Answers: <span id="correctanswers"></span></p>
+  <p>Incorrect Answers: <span id="incorrectanswers"></span></p>
+  <p>Unanswered: <span id="unanswered"></span></p>
+</div>
+
+
+
+
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+</html>

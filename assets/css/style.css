@@ -1,0 +1,32 @@
+/* This aligns my header to the center */
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* This adds padding to the questionnaire */
+#Questionnaire {
+	padding: 30px;
+}
+
+/* This hides the questionnaire */
+.hidden {
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+#results {
+	text-align: center;
+}
+
+/* This is my timer */
+#display {
+	text-align: center;
+	padding: 10px;
+}
