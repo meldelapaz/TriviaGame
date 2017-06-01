@@ -21,7 +21,7 @@ $("#startbutton").on("click", function() {
 	//hide the button
 	$("#startbutton").hide();
 
-	var counter = 5;
+	var counter = 31;
 	setInterval(function() {
 
 		counter--;
@@ -39,5 +39,9 @@ $("#startbutton").on("click", function() {
 
 });
 
+
+$("#submitbutton").on("click", function() {
+	console.log("Submit button clicked");
+});
 
 
