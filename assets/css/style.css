@@ -1,15 +1,47 @@
 /* This aligns my header to the center */
 h1 {
 	text-align: center;
+	color: red;
+	font-family: cursive;
 }
 
 h2 {
 	text-align: center;
 }
 
+body {
+	background-color: blue;
+}
+
+#body {
+	background-image: url("https://cdn.pixabay.com/photo/2016/12/15/23/18/paper-1910251_1280.jpg");
+}
+
 /* This adds padding to the questionnaire */
 #Questionnaire {
-	padding: 30px;
+	margin: 30px;
+	padding: 10px;
+	background-color: lightblue;
+}
+
+#mainheader {
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+#bobpic {
+	width: 30%;
+	height: 30%;
+}
+
+#results {
+	background-color: lightblue;
+	margin: 30px;
+	padding: 10px;
 }
 
 .hideblank {

@@ -6,7 +6,6 @@ $(document).ready(function() {
 	
 	var correctAnswers = 0;
 	var incorrectAnswers = 0;
-	var unanswered = 0;
 
    $('input[name=group1]').change(function(){
     if($('input[name=group1]:checked').val() === "correct") {
@@ -91,7 +90,6 @@ $("#startbutton").on("click", function() {
 	function countdown() {
 		if (timeLeft == 0) {
 			clearTimeout(timerId);
-			alert('sorry, out of time');
 			$("#Questionnaire").hide();
 			$("#results").removeClass('hide');
 		} else {
