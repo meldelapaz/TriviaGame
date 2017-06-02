@@ -84,7 +84,7 @@ $("#startbutton").on("click", function() {
 	//hide the button
 	$("#startbutton").hide();
 
-	var timeLeft = 10;
+	var timeLeft = 30;
 	var timerId = setInterval(countdown, 1000);
 
 	function countdown() {
