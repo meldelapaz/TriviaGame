@@ -12,6 +12,10 @@ h2 {
 	padding: 30px;
 }
 
+.hideblank {
+	display: none;
+}
+
 /* This hides the questionnaire */
 .hidden {
 	display: none;
